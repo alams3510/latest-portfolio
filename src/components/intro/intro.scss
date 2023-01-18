@@ -1,0 +1,96 @@
+@import "../../global.scss";
+
+.intro {
+  display: flex;
+  background-color: white;
+
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  .Introleft {
+    flex: 0.5;
+    overflow: hidden;
+    .imgcontainer {
+      width: 900px;
+      height: 700px;
+      background-color: crimson;
+      border-radius: 50%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      float: right;
+      @include mobile {
+        align-items: flex-start;
+      }
+      img {
+        height: 100%;
+        @include mobile {
+          height: 50%;
+        }
+      }
+    }
+  }
+  .Introright {
+    flex: 0.5;
+    display: flex;
+    padding-left: 50px;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    @include mobile {
+      align-items: center;
+    }
+    .typo {
+      display: flex;
+    }
+    h1 {
+      font-size: 60px;
+      margin: 10px 0;
+      color: $mainColor;
+      @include mobile {
+        font-size: 40px;
+      }
+    }
+    h2 {
+      font-size: 25px;
+      color: $mainColor;
+      @include mobile {
+        font-size: 18px;
+      }
+    }
+    h3 {
+      font-size: 30px;
+      margin-right: 5px;
+      color: $mainColor;
+      @include mobile {
+        font-size: 20px;
+      }
+    }
+    span {
+      font-size: 30px;
+      color: crimson;
+      @include mobile {
+        font-size: 20px;
+      }
+    }
+
+    a {
+      position: absolute;
+      width: 50px;
+      bottom: 10px;
+      left: 45%;
+      img {
+        width: 30px;
+        animation: arrowBlink 1s infinite;
+      }
+
+      @keyframes arrowBlink {
+        100% {
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
