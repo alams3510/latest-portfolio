@@ -3,7 +3,6 @@
 .intro {
   display: flex;
   background-color: white;
-
   @include mobile {
     flex-direction: column;
     align-items: center;
@@ -21,6 +20,8 @@
       align-items: flex-end;
       justify-content: center;
       float: right;
+    overflow-y: hidden;
+
       @include mobile {
         align-items: flex-start;
       }
@@ -41,6 +42,8 @@
     position: relative;
     @include mobile {
       align-items: center;
+    padding-left: 0px;
+
     }
     .typo {
       display: flex;

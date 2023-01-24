@@ -12,7 +12,7 @@
   justify-content: center;
   flex-direction: column;
   transition: all 0.6s ease-in-out;
-  border-radius: 60% 0 0 60%;
+  border-radius: 10% 0 0 10%;
   ul {
     width: 60%;
     li {
@@ -25,6 +25,7 @@
         color: white;
         padding: 30px;
         font-size: 25px;
+        font-family: cursive;
       }
       &:hover {
         font-weight: 700;

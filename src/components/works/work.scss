@@ -43,7 +43,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-
+     
       .item {
         width: 700px;
         height: 100%;
@@ -54,7 +54,7 @@
         justify-content: center;
         @include mobile {
           width: 80%;
-          height: 190px;
+          height: 131px;
           margin: 10px 0;
         }
         .left {
@@ -95,7 +95,7 @@
             p {
               font-size: 13px;
               @include mobile {
-                font-size: 11px;
+                font-size: 7px;
               }
             }
             span {

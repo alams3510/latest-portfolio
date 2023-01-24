@@ -7,15 +7,15 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            aaaaa
+            S H A H B A Z
           </a>
           <div className="itemContainer">
             <BsFillPersonFill className="icon" />
-            <span>4644353637</span>
+            <span>+91-7908231334</span>
           </div>
           <div className="itemContainer">
             <AiFillMail className="icon" />
-            <span>shahbaz@example.com</span>
+            <span >alams3510@gmail.com</span>
           </div>
         </div>
 
