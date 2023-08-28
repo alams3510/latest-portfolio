@@ -10,7 +10,7 @@ export default function Work() {
       title: "Web Social Media App",
       desc: "A complete MERN Stack Application having multiple functionalities.",
       img: "/facebuk.png",
-      link:"https://frontendsocial.onrender.com/"
+      link: "https://frontend-gbd4.onrender.com/",
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ export default function Work() {
       title: "Ecommerce web App",
       desc: "A Shopping Application having Context-API for data flow",
       img: "/shoppingCart.png",
-      link:"https://shoppingos.netlify.app/"
+      link: "https://shoppingos.netlify.app/",
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ export default function Work() {
       title: "My Portfolio",
       desc: "My Portfolio having email and Download CV functions.",
       img: "/portfolio.png",
-      link:"#"
+      link: "#",
     },
   ];
 
@@ -53,14 +53,13 @@ export default function Work() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span><a href={d.link}>Projects</a></span>
+                  <span>
+                    <a href={d.link}>Projects</a>
+                  </span>
                 </div>
               </div>
               <div className="right">
-                <img
-                  src={d.img}
-                  alt=""
-                />
+                <img src={d.img} alt="" />
               </div>
             </div>
           </div>

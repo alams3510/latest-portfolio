@@ -14,8 +14,11 @@ export const featuredPortfolio = [
     title: "SASS",
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/2560px-Sass_Logo_Color.svg.png",
   },
-  
- 
+  {
+    id: 4,
+    title: "Tailwind CSS",
+    img: "https://files.raycast.com/n3pu9p0jifwy2drpkkojlvt4wd85",
+  },
 ];
 
 export const webPortfolio = [
@@ -39,7 +42,6 @@ export const webPortfolio = [
     title: "Redux-Toolkit",
     img: "https://blog.logrocket.com/wp-content/uploads/2020/05/smarter-redux-rtk.jpeg",
   },
-  
 ];
 
 export const mobilePortfolio = [
@@ -58,7 +60,6 @@ export const mobilePortfolio = [
     title: "JavaScript",
     img: "https://i.pinimg.com/originals/28/75/3d/28753ddf79d70042ba86564947e13bf5.png",
   },
-  
 ];
 
 export const designPortfolio = [
@@ -77,7 +78,11 @@ export const designPortfolio = [
     title: "Styled Component",
     img: "https://www.styled-components.com/atom.png",
   },
-  
+  {
+    id: 4,
+    title: "MUI",
+    img: "https://mui.com/static/logo.png",
+  },
 ];
 
 export const contentPortfolio = [
@@ -91,5 +96,4 @@ export const contentPortfolio = [
     title: "Mongoose",
     img: "https://www.liblogo.com/img-logo/mo8136ma18-mongoose-logo-mongoose-logo-decal-2.png",
   },
-  
 ];

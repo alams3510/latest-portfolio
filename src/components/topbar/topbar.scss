@@ -22,10 +22,12 @@
         display: flex;
         align-items: center;
         margin-right: 30px;
+        &:hover{
+       background-color:rgb(238, 161, 161)
+        }
         a{
           text-decoration: none;
   color: $mainColor;
-
         }
         @include mobile {
           display: none;
@@ -33,6 +35,9 @@
         .icon {
           font-size: 18px;
           margin-right: 5px;
+          &:hover{
+            color:white ;
+          }
         }
         span {
           font-size: 15px;
